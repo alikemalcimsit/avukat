@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+.navbar_items{
+    @apply hidden text-white gap-14 text-lg   font-light  lg:flex
+}
+
+
+
+.blog-card {
+    @apply  h-56 md:h-64 mb-10 duration-[250ms]    flex-col p-5  w-[350px]  md:w-[400px] bg-no-repeat bg-center    hover:scale-105 bg-cover cursor-pointer;
+  }
+  
+
+  .blog-date {
+    @apply font-extralight text-white;
+  }
